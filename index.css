@@ -1,0 +1,62 @@
+
+/* By default */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* My styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    /* Primary colors */
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+
+    /* Neutral colors */
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Typography size */
+    --size-paragraph: 14px;
+
+    /* Main typography */
+    --montserrat: 'Montserrat', sans-serif;
+
+    /* title typography */
+    --fraunces: 'Fraunces', serif;
+
+}
+
+
+main {
+    background-color: var(--cream);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.main__content {
+    display: block;
+}
+
+
+.card {
+    display: flex;
+    height: 97vh;
+    /* justify-content: center; */
+} 
+
+.footer {
+    height: 3vh;
+}
+
+.card__image--perfume {
+    height: 500px;
+    width: 300px;
+}
