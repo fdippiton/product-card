@@ -33,10 +33,10 @@ Users should be able to:
 ![](./screenshots/desktop_pic.png)
 
 #### Screenshot Mobile 375px
-![](./screenshots/mobile_pic.png)
+<img src="./screenshots/mobile_pic.png" width="300" height="600">
 
 #### Screenshot Mobile 333px
-![](./screenshots/small_mobile_pic.png)
+<img src="./screenshots/small_mobile_pic.png" width="300" height="600">
 
 ### Links
 
