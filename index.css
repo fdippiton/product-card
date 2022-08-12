@@ -5,7 +5,6 @@
 
 /* My styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 body {
     margin: 0px;
@@ -38,25 +37,225 @@ main {
     background-color: var(--cream);
     height: 100vh;
     width: 100vw;
-
 }
 
 .main__content {
     display: block;
 }
 
-
 .card {
     display: flex;
     height: 97vh;
-    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
 } 
 
 .footer {
     height: 3vh;
 }
 
+.card__image {
+    height: 510px;
+    width: 310px;
+}
+
+.card__description {
+    height: 440px;
+    width: 240px;
+    background-color: var(--white);
+    border-radius: 0 10px 10px 0;
+    padding: 35px;
+}
+
 .card__image--perfume {
-    height: 500px;
-    width: 300px;
+    height: 510px;
+    width: 310px;
+    border-radius: 10px 0 0 10px;
+    filter: brightness(80%);
+    filter: saturate(100%);
+}
+
+.card__description--product {
+    font-family: var(--montserrat);
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: var(--dark-grayish-blue);
+    font-size: 12px;
+    margin: 0;
+}
+
+.card__description--title {
+    font-family: var(--fraunces);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.card__description--details {
+    font-family: var(--montserrat);
+    /* font-weight: 500; */
+    font-size: var(--size-paragraph);
+    color: var(--dark-grayish-blue);
+    line-height: 1.7;
+    margin: 15px 0px;
+}
+
+.card__description--price {
+    display: flex;
+    align-items: center;
+}
+
+.price--actual {
+    font-family: var(--fraunces);
+    font-weight: 700;
+    color: var(--dark-cyan);
+    margin-right: 20px;
+    font-size: 35px;
+    margin: 0 20px 0 0;
+}
+
+.price--before {
+    font-size: var(--size-paragraph);
+    color: var(--dark-grayish-blue);
+    font-family: var(--montserrat);
+    font-weight: normal;
+}
+
+button {
+    border-color: transparent;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    font-family: var(--montserrat);
+    padding: 12px;
+    width: 100%;
+    border-radius: 7px;
+    margin: 25px 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--very-dark-blue);
+}
+
+svg {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.attribution {
+    font-family: var(--montserrat);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media (min-width: 375px) and (max-width: 639px) {
+    main {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .main__content {
+        height: 93vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+    }
+
+
+    .card {
+        display: block;
+        height: 620px;
+        width: 336px;
+        margin: auto;
+    } 
+
+    .card__image {
+        height: 270px;
+        width: 336px;
+    }
+
+    .card__image--perfume {
+        height: 270px;
+        width: 336px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card__description {
+        height: 350px;
+        width: 300px;
+        margin: 0;
+        padding: 18px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .card__description--title {
+        font-size: 30px;
+    } 
+
+    button {
+        margin: 25px 0px;
+    }
+
+    .attribution {
+        margin: 10px 0;
+        padding: 20px 0 10px 0;
+    }
+}
+
+
+@media (max-width: 375px) {
+    main {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .main__content {
+        height: 93vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .card {
+        display: block;
+        height: 620px;
+        width: 250px;
+        margin: auto;
+    } 
+
+    .card__image {
+        height: 180px;
+        width: 250px;
+    }
+
+    .card__image--perfume {
+        height: 180px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card__description {
+        height: 350px;
+        width: 214px;
+        margin: 0;
+        padding: 18px;
+        border-radius: 0 0 10px 10px;
+    }
+
+    .card__description--title {
+        font-size: 25px;
+    } 
+
+    button {
+        margin: 0;
+    }
+
+    .attribution {
+        margin: 10px 0;
+    }
 }
