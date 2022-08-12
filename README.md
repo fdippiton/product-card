@@ -32,7 +32,7 @@ Users should be able to:
 #### Screenshot Desktop 1440px
 ![](./screenshots/desktop_pic.png)
 
-#### Screenshot Mobile 375px
+#### Screenshot Mobile 376px
 <img src="./screenshots/mobile_pic.png" width="300" height="600">
 
 #### Screenshot Mobile 333px
@@ -40,8 +40,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [product-card](https://github.com/fdippiton/product-card/)
+- Live Site URL: [product-card](https://fdippiton.github.io/product-card/)
 
 ## My process
 
@@ -89,7 +89,7 @@ I had the opportunity to implement my knowledge of html, css and flexbox, in suc
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [product-card](https://fdippiton.github.io/product-card/)
 - Frontend Mentor - [@fdippiton](https://www.frontendmentor.io/profile/fdippiton)
 - Twitter - [@f_dippiton](https://www.twitter.com/f_dippiton)
 
